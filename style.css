@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: #E5E5E5;
+}
+
+.main-container{
+    height: 100%;
+    padding: 50px;
+}
+
+.header-container{
+    padding-bottom: 2%;
+}
+
+#tasks-container{
+    display: flex;
+    gap: 15px;
+}
+
+.task{
+    background: #216FB7;
+    color: white;
+    padding: 10px 20px 5px 20px;
+    border-radius: 15px;
+    max-width: 200px;
+    position: flex;
+}
+
+#trash{
+    color: #216FB7;
+    font-size: 20px;
+}
+
+.task:hover #trash{
+    color: white;
+}
+
+.input-task{
+    border:none;
+}
+
+.input-block{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+}
+
+.add-button{
+    background: grey;
+    color: white;
+}
